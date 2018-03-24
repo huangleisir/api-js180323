@@ -162,4 +162,6 @@ public interface RewardDuService extends BaseService{
 	
 	public RT0003RespDto updateUserPopUp(RT0003ReqDto dto);
 
+	PageResponseDTO<IncentiveRecord> selectRewardRecord(RQ0001ReqDto RQ0001ReqDto);
+
 }
